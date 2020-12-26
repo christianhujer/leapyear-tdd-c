@@ -7,4 +7,5 @@ bool isLeapYear(int year) {
 
 int main(void) {
     assert(!isLeapYear(1999));
+    assert(isLeapYear(2004));
 }
