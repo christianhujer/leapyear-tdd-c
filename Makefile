@@ -4,6 +4,8 @@ CPPFLAGS:=-W -Wall --pedantic
 all: main
 	./main
 
+main: main.o leapYear.o
+
 .PHONY: clean
 clean::
-	$(RM) main
+	$(RM) main *.o

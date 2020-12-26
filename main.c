@@ -1,9 +1,5 @@
 #include <assert.h>
-#include <stdbool.h>
-
-bool isLeapYear(int year) {
-    return year % 4 == 0 && year % 100 != 0;
-}
+#include "leapYear.h"
 
 int main(void) {
     assert(!isLeapYear(1999));
