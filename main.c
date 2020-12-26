@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 bool isLeapYear(int year) {
-    return true;
+    return false;
 }
 
 int main(void) {
