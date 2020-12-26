@@ -14,5 +14,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Install splint
+        run: |
+          sudo apt-get install splint
       - name: Run the pipeline with make
-        run: make
+        run: |
+          make all lint

@@ -2,4 +2,5 @@
 
 int main() {
     testIsLeapYear();
+    return 0;
 }
