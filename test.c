@@ -1,5 +1,5 @@
 #include "leapYearTest.h"
 
-void test() {
+int main() {
     testIsLeapYear();
 }
