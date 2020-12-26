@@ -1,4 +1,5 @@
-CPPFLAGS:=-W -Wall --pedantic -MMD
+CPPFLAGS:=-W -Wall --pedantic -MMD -Iinclude/
+VPATH=src/ tests/
 
 .PHONY: all
 all: main test
