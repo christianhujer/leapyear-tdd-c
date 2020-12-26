@@ -4,7 +4,7 @@ CPPFLAGS:=-W -Wall --pedantic -MMD
 all: main
 	./main
 
-main: main.o leapYear.o
+main: main.o test.o leapYearTest.o leapYear.o
 
 .PHONY: clean
 clean::
