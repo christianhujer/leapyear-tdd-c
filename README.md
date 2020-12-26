@@ -1,4 +1,7 @@
 # `leapyear-tdd-c`
+
+![CI](https://github.com/christianhujer/leapyear-tdd-c/workflows/CI/badge.svg)
+
 This is a demonstration of how to do test-driven development (TDD) in C, without the use of any framework.
 The C standard library has everything you need.
 Frameworks are great, but they're optional.
