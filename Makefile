@@ -1,3 +1,5 @@
+CPPFLAGS:=-W -Wall --pedantic
+
 .PHONY: all
 all: main
 	./main
