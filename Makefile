@@ -1,4 +1,4 @@
-CPPFLAGS:=-W -Wall --pedantic
+CPPFLAGS:=-W -Wall --pedantic -MMD
 
 .PHONY: all
 all: main
@@ -8,4 +8,6 @@ main: main.o leapYear.o
 
 .PHONY: clean
 clean::
-	$(RM) main *.o
+	$(RM) main *.[do]
+
+-include *.d
